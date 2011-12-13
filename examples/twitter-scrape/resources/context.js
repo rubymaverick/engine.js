@@ -1,5 +1,19 @@
+    var Sequelize = require('sequelize');
+    var sequelize = new Sequelize(locals.db,locals.user,locals.pass);
+
+    var Tweet = sequelize.define('Tweet',{
+	id: { type: Sequelize.INTEGER, primaryKey: true, autoIncrement: true },
+	handle: { type: Sequelize.STRING },
+	tweet: { type: Sequelize.STRING }
+    });
+
+    Tweet.sync();
+
+
 (function(locals){
+
     return {
+	Tweet: Tweet,
 	fetch: function(resource, callback){
 	    var url = require("url");
 	    var http = require("http");
