@@ -19,9 +19,11 @@
   "dependencies": {
       "zmq" : "*",
       "node-uuid" : "*",
-      "jasmine-node" : "1.0.19",
       "underscore" : "*",
       "contextify" : "*",
       "bindings" : "*"
+  },
+  "devDependencies": {
+    "jasmine-node" : "1.0.19"
   }
 }
