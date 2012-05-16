@@ -17,10 +17,10 @@
     "node": "node >=0.6.0"
   },
   "dependencies": {
-      "zmq" : "*",
+      "zmq" : "latest",
       "node-uuid" : "*",
       "underscore" : "*",
-      "contextify": "https://github.com/pccowboy/contextify/tarball/master",
+      "contextify": "latest",
       "bindings" : "*"
   },
   "devDependencies": {
