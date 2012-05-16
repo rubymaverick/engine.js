@@ -20,7 +20,7 @@
       "zmq" : "*",
       "node-uuid" : "*",
       "underscore" : "*",
-      "contextify" : "*",
+      "contextify": "https://github.com/pccowboy/contextify/tarball/master"
       "bindings" : "*"
   },
   "devDependencies": {
