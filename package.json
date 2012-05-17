@@ -17,10 +17,10 @@
     "node": "node >=0.6.0"
   },
   "dependencies": {
-      "zmq" : "latest",
+      "zmq" : "*",
       "node-uuid" : "*",
       "underscore" : "*",
-      "contextify": "latest",
+      "contextify": "*",
       "bindings" : "*"
   },
   "devDependencies": {
